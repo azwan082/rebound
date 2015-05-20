@@ -7,10 +7,15 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import com.facebookx.rebound.Spring;
+import com.facebookx.rebound.SpringConfig;
+import com.facebookx.rebound.SpringConfigRegistry;
+import com.facebookx.rebound.SpringListener;
 
 /**
  * SpringChain is a helper class for creating spring animations with multiple springs in a chain.
@@ -24,7 +29,7 @@ public class SpringChain implements SpringListener {
 
   /**
    * Add these spring configs to the registry to support live tuning through the
-   * {@link com.facebook.rebound.ui.SpringConfiguratorView}
+   * {@link com.facebookx.rebound.ui.SpringConfiguratorView}
    */
   private static final SpringConfigRegistry registry = SpringConfigRegistry.getInstance();
   private static final int DEFAULT_MAIN_TENSION = 40;

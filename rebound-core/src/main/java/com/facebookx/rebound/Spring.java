@@ -8,7 +8,7 @@
  *
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
 
 import java.util.concurrent.CopyOnWriteArraySet;
 
@@ -121,7 +121,7 @@ public class Spring {
    * setCurrentValue signature passes true.
    * @param currentValue the new start and current value for the spring
    * @param setAtRest optionally set the spring at rest after updating its current value.
-   *                  see {@link com.facebook.rebound.Spring#setAtRest()}
+   *                  see {@link com.facebookx.rebound.Spring#setAtRest()}
    * @return the spring for chaining
    */
   public Spring setCurrentValue(double currentValue, boolean setAtRest) {

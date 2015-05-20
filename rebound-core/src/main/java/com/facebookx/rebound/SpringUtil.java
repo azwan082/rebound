@@ -8,7 +8,7 @@
  *
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
 
 public class SpringUtil {
 

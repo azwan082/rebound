@@ -8,7 +8,10 @@
  *
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
+
+import com.facebookx.rebound.BaseSpringSystem;
+import com.facebookx.rebound.SpringLooper;
 
 /**
  * This is a wrapper for BaseSpringSystem that provides the convenience of automatically providing

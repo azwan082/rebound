@@ -8,7 +8,9 @@
  *
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
+
+import com.facebookx.rebound.SpringLooper;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -24,7 +26,7 @@ import android.view.Choreographer;
 abstract class AndroidSpringLooperFactory {
 
   /**
-   * Create an Android {@link com.facebook.rebound.SpringLooper} for the detected Android platform.
+   * Create an Android {@link com.facebookx.rebound.SpringLooper} for the detected Android platform.
    * @return a SpringLooper
    */
   public static SpringLooper createSpringLooper() {

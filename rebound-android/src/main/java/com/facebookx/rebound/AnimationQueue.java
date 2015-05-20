@@ -7,7 +7,7 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
 
 import java.util.ArrayList;
 import java.util.Collection;

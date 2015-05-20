@@ -8,7 +8,7 @@
  *
  */
 
-package com.facebook.rebound;
+package com.facebookx.rebound;
 
 /**
  * This class converts values from the Quartz Composer Bouncy patch into Bouncy QC tension and

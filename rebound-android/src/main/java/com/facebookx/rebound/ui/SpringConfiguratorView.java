@@ -8,7 +8,7 @@
  *
  */
 
-package com.facebook.rebound.ui;
+package com.facebookx.rebound.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -30,19 +30,19 @@ import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
-import com.facebook.rebound.OrigamiValueConverter;
-import com.facebook.rebound.Spring;
-import com.facebook.rebound.SpringConfig;
-import com.facebook.rebound.SpringConfigRegistry;
-import com.facebook.rebound.SpringListener;
-import com.facebook.rebound.SpringSystem;
+import com.facebookx.rebound.OrigamiValueConverter;
+import com.facebookx.rebound.Spring;
+import com.facebookx.rebound.SpringConfig;
+import com.facebookx.rebound.SpringConfigRegistry;
+import com.facebookx.rebound.SpringListener;
+import com.facebookx.rebound.SpringSystem;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static com.facebook.rebound.ui.Util.*;
+import static com.facebookx.rebound.ui.Util.*;
 
 /**
  * The SpringConfiguratorView provides a reusable view for live-editing all registered springs
